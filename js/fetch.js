@@ -10,7 +10,7 @@ $(document).ready((e)=>{
                 <li>Type : ${this.type}</li>
                 <li>Etat : ${this.etat}</li>
                 <li>${this.description}</li>
-                <img src='/sources${this.image}' alt='image ${this.marque}'>
+                <img src='../sources${this.image}' alt='image ${this.marque}'>
                 </ul>`)
             })
             $('.carsBox').append(carsList)
