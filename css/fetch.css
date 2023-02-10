@@ -75,6 +75,7 @@ main{
     display: flex;
     flex-flow: column;
     row-gap: 5rem;
+    padding-top: 2rem;
 }
 
 main .card img{
@@ -89,6 +90,10 @@ figure figcaption{
 figure figcaption p{
     line-height: 2.5rem;
     padding: 1rem;
+}
+
+figure figcaption h3{
+    font-weight: bold;
 }
 
 
