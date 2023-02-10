@@ -6,7 +6,8 @@ html{
 body{
     font: 1.6rem 'Roboto', sans-serif;
     margin: 0;
-  
+    background: #2f3e46;
+    color: #fff;
 }
 *{
     box-sizing: border-box;
@@ -36,6 +37,12 @@ a{
     outline: 0.1rem solid #fff;
 }
 /* theme */
+header{
+    display: flex;
+    flex-flow: column;
+    row-gap: 2.5rem;
+}
+
 header h1{
     line-height: 6.5rem;
     text-align: center;
@@ -49,6 +56,39 @@ header h1::before{
     margin-right: 1rem;
     color: #ffc107;
     font-family: "fontAwesome";
+}
+
+header button{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button, button, input[type="button"], input[type="reset"], input[type="submit"]{
+    background: #222;
+    border: 0;
+}
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90rem;
+    display: flex;
+    flex-flow: column;
+    row-gap: 5rem;
+}
+
+main .card img{
+    width: 100%;
+}
+
+figure figcaption{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+figure figcaption p{
+    line-height: 2.5rem;
+    padding: 1rem;
 }
 
 
